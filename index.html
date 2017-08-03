@@ -1,0 +1,146 @@
+<!doctype html>
+<html>
+
+<head>
+    <title>Home</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script type="text/javascript" src="script.js"></script>
+</head>
+
+<!-- DRAWER && OVERLAY -->
+
+<body>
+
+    <!-- OVERLAY -->
+    <div id="drawer-overlay" class="hidden">
+        <!-- MODAL -->
+
+        <div id="modal" class="hidden">
+            <div id="close-modal">
+                <a href="javascript://">
+                    <img src="assets/close.svg" alt="close">
+                </a>
+            </div>
+            <h2>Welcome to our redesigned site!</h2>
+            <p>Would you like to take a <a href="javascript://">tour</a> of our new features?</p>
+            <p>By the way, this site uses cookies and if you're using it we have to assume that you are ok with that.</p>
+        </div>
+    </div>
+
+    <!-- DRAWER  -->
+    <aside id="drawer">
+
+        <div id="close">
+            <a href="javascript://">
+                <img src="assets/close.svg" alt="close">
+            </a>
+        </div>
+
+        <nav>
+            <ul>
+                <li><a href="javascript://">Settings</a></li>
+                <li><a href="javascript://">Pricing</a></li>
+                <li><a href="javascript://">Upgrade</a></li>
+                <li><a href="javascript://">Subscribe</a></li>
+            </ul>
+            <ul>
+                <li><a href="javascript://">Log Out</a></li>
+            </ul>
+
+        </nav>
+
+    </aside>
+
+
+
+    <!-- HEADER SECTION -->
+    <header>
+
+        <a href="javascript://">
+            <img src="assets/sprint.svg">
+        </a>
+
+        <div id="menu">
+            <a id="hamburger" href="javascript://">
+                <img src="assets/hamburgermenu.svg" alt="hamburger menu">
+            </a>
+        </div>
+
+
+    </header>
+
+    <!-- MAIN SECTION -->
+    <main>
+
+        <!-- TODO: change this section with carousel -->
+        <div id="splash">
+
+            <!-- BACKGROUND-IMAGE -->
+            <img src="assets/reichstag.jpg">
+
+            <!-- OVERLAY SHADOW -->
+            <div class="overlay"></div>
+
+            <!-- MESSAGE -->
+            <div class="message">
+                <h1>Welcome to Berlin and the Future.</h1>
+                <div>
+                    <a id="get-started">Get Started</a>
+                </div>
+            </div>
+        </div>
+
+        <!-- SECTION CONTAINING MULTIPLE ARTICLES -->
+        <dl id="benefits">
+
+            <!-- ARTICLE 1 -->
+            <article class="benefit">
+                <img src="assets/cat.svg" class="icon">
+                <div class="benefit-text">
+                    <dt>Best-in-class Features</dt>
+                    <dd>Nobody does this stuff better than us. You can bet your life on that.
+                    </dd>
+                </div>
+            </article>
+
+            <!-- ARTICLE 2 -->
+            <article class="benefit">
+                <img src="assets/world.svg" class="icon">
+                <div class="benefit-text">
+                    <dt>Reliable Service</dt>
+                    <dd>You can count on us to help you whenever you need it. We're talking round the clock service.
+                    </dd>
+                </div>
+            </article>
+
+            <!-- ARTICLE 3 -->
+            <article class="benefit">
+                <img src="assets/swim.svg" class="icon">
+                <div class="benefit-text">
+                    <dt>An Acquired Taste</dt>
+                    <dd>It may take a little while for you to warm up to us but once you do you will never want to switch.
+                    </dd>
+                </div>
+            </article>
+
+            <!-- ARTICLE 4 -->
+            <article class="benefit">
+                <img src="assets/columns.svg" class="icon">
+                <div class="benefit-text">
+                    <dt>No Limits</dt>
+                    <dd>There are absolutely no limits. We do not throttle. We do not cap.
+                    </dd>
+                </div>
+            </article>
+
+        </dl>
+    </main>
+
+    <footer>
+        &copy; 2016 Some Organization
+    </footer>
+</body>
+
+</html>
